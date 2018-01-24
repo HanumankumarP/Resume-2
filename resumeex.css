@@ -85,6 +85,10 @@ div{
 .bio{
 	width:50%;
 }
+.bio img{
+	width:20em;
+	height:20em;
+	}
 .sidemenu{
 	width:50%;
 }
