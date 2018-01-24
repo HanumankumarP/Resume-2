@@ -1,30 +1,19 @@
 
-.name 
+.name,.name1
 {
 	text-align:center;
-
-	padding-top:20px;
+  padding-top:20px;
 	font-weight:bold;
 	font-size:18px;
 }
-.name1
-{   font-weight:bold;
-	font-size:14px;
-	text-align:center;
-}
-  .sidemenu ul li
+
+  .sidemenu div
  {
 	 list-style-type:none;
 	 display:block;
-	  }
- 
- {
 	 font-size:18px;
-	 padding-right:15px;
- }
- .sidemenu li
- {
 	 padding-top:20px;
+	 padding-right:15px;
  }
  .label-keyword
  {
@@ -36,7 +25,7 @@ padding: 5px;
 border: 1px solid #357ebd;
 margin-right: 5px;
  }
-.headers 
+.headers
 {
 	 font-size:14px;
 	 font-weight:bold;
@@ -45,41 +34,75 @@ margin-right: 5px;
 }
 .headers  span
 {
-	 
 	 margin-right:10px;
 }
 
-.well
-{
-	background:#FFF;
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #FFF;
+
 }
 
 .left{
-	width:30%;
+	width:35%;
 	border-radius: 10px;
 	background-color: skyblue;
+   text-align: center;
 }
 .right {
-	width: 68%;
+	width: 62%;
+	background-color: skyblue;
+	border-radius: 10px;
+	margin-left: 10px;
+}
+ .bio img{
+  border-radius: 25px;
+
+  width: 30%;
+	height: 40%;
 
 }
-.row{
-	display: flex;
-}
+
 body{
 	background: #F1C2B7;
 }
 div{
 	padding: 5px;
+}
+
+@media screen and (max-width: 1024px){
+
+.row{
+	background-color: brown;
 
 }
-@media screen and (min-width: 480px)
- {
-    .mainDiv {
-        background-color: lightgreen;
-
-    }
+	.left{
+		width: 100%;
+		display: flex;
 }
+
+.bio{
+	width:50%;
+}
+.sidemenu{
+	width:50%;
+}
+.right{
+	width:100%;
+	margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+
+	.name{
+
+		font-size:50px;
+
+	}
+} 
 
  /*index*/
 
@@ -98,7 +121,7 @@ div{
    border:1px solid yellow;
    background-color: #6495ED;
    display: flex;
-    flex-wrap: wrap;
+
     justify-content: space-around;
 
 }
@@ -106,9 +129,9 @@ div{
 .childDiv{
   box-shadow: 0 4px 8px 	lightyellow;
   border: 1px solid #FFD700;
-
+	background-color: #6495ED;
 }
-.childDiv:hover {
+.childDiv : hover {
     box-shadow: 0 8px 16px 	lightyellow;
 }
 
@@ -116,14 +139,29 @@ div{
     padding: 2px 6px;
 }
 
-@media screen and (min-width: 760px)
+@media screen and  (min-width: 760px)
  {
-    .mainDiv,.right {
+  .mainDiv,.left,  .right {
         background-color: lightgreen;
 
     }
 }
-img{
+@media screen and  (max-width: 760px)
+ {
+	 .mainDiv{
+		 flex-wrap: wrap;
+	 }
+  .childDiv {
+        background-color: lightgreen;
+        margin-top: 20px;
+				display: flex;
+
+    }
+
+}
+
+
+ img{
   border-radius: 25px;
   height: auto;
   width: 100%;
@@ -134,22 +172,15 @@ body{
 .button input{
   border-radius: 100px;
   float: right;
-}
 
-/*Require Data*/
-.Data{
- display: flex;
-flex-wrap: wrap;
 }
+button{
+	background-color: black;
+	color: white;
+	width:100%;
+	border-radius:10px;
+}
+button:hover, a:hover {
+  opacity: 0.7;
 
-.Data input{
-  height: 40px;
-  width: 100%;
-  border-radius: 25px;
-  border: 5px;
-}
-.Data button{
-  horizontal-align: center;
-justify-content: center;
-border-radius: 10px;
 }
