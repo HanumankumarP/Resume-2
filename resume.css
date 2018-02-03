@@ -1,3 +1,4 @@
+
 .name,.name1
 {
 	text-align:center;
@@ -39,19 +40,19 @@ margin-right: 5px;
 .main{
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #FFF;
+	background-color: #F5F39E;
 
 }
 
 .left{
 	width:35%;
 	border-radius: 10px;
-	background-color: #C2DFFF;
+	background-color: #EDF7D3;
    text-align: center;
 }
 .right {
 	width: 62%;
-	background-color: #C2DFFF;
+	background-color: #EDF7D3;
 	border-radius: 10px;
 	margin-left: 10px;
 }
@@ -63,10 +64,13 @@ margin-right: 5px;
 
 }
 
-
+body{
+	background: #F1C2B7;
+}
 div{
 	padding: 5px;
 }
+
 @media screen and (max-width: 1024px){
 
 .main{
@@ -92,33 +96,32 @@ div{
 }
 
 }
-@media screen and (min-width: 760px){
-  .left,  .right {
-        background-color: #EDF7D3;
 
-    }
-}
+
+
 @media screen and (max-width: 760px){
 
     .main{
-	width: 100%;
+    	width: 100%;
     }
     .left{
-	width: 100%;
-	display:flex;
-	font-family: Verdana;
+    	width: 100%;
+    	display:flex;
+    	font-family: Verdana;
+      background-color: #C2DFFF;
 
     }
     .sidemenu{
-	flex-wrap:wrap;
-	margin-top: 0%;
+    	flex-wrap:wrap;
+    	margin-top: 0%;
     }
     .bio img{
-	height: 30%;
+    	height: 30%;
     }
     .right{
-	width: 100%;
-	font-family: Verdana;
+    	width: 100%;
+    	font-family: Verdana;
+        background-color: #C2DFFF;
     }
 
    }
@@ -128,4 +131,7 @@ div{
   border-radius: 25px;
   height: auto;
   width: 100%;
+}
+body{
+  background-color: #99C68E;
 }
