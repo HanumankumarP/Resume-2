@@ -1,0 +1,156 @@
+/*index*/
+
+.h1,.mainDiv,.childDiv,.img{
+  border-radius: 25px;
+}
+.h1{
+  text-align: center;
+  background-color: Lightgray;
+  font-size: 40px;
+}
+.mainDiv {
+   box-shadow: 0 4px 8px 0 #00008B;
+   padding: 40px;
+   border:1px solid yellow;
+   background-color: #CAF3F4;
+   display: flex;
+   justify-content: space-around;
+}
+.childDiv{
+  box-shadow: 0 4px 8px 	lightyellow;
+  border: 1px solid #FFD700;
+	background-color: #CAF3F4;
+}
+.childDiv : hover {
+    box-shadow: 0 8px 16px 	lightyellow;
+}
+
+.container {
+    padding: 2px 6px;
+}
+
+@media screen and (min-width: 760px){
+  .mainDiv {
+        background-color: #EDF7D3;
+
+    }
+}
+@media screen and (max-width: 760px){
+	 .mainDiv{
+		 flex-wrap: wrap;
+
+	 }
+  .childDiv {
+        background-color: #EDF7D3;
+        margin-top: 20px;
+		display: flex;
+
+    }
+   }
+
+
+ .img img{
+  border-radius: 25px;
+  height: auto;
+  width: 100%;
+  }
+  div{
+    padding:5px;
+  }
+
+body{
+  background-color: #99C68E;
+}
+.button input{
+  border-radius: 100px;
+  float: right;
+
+}
+button{
+	background-color: #FFFFFF;
+	color: #000000;
+  font-weight: bold;
+	width:100%;
+	border-radius:10px;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}
+/*index*/
+
+.h1,.mainDiv,.childDiv,.img{
+  border-radius: 25px;
+}
+.h1{
+  text-align: center;
+  background-color: Lightgray;
+  font-size: 40px;
+}
+.mainDiv {
+   box-shadow: 0 4px 8px 0 #00008B;
+   padding: 40px;
+   border:1px solid yellow;
+   background-color: #CAF3F4;
+   display: flex;
+   justify-content: space-around;
+}
+.childDiv{
+  box-shadow: 0 4px 8px 	lightyellow;
+  border: 1px solid #FFD700;
+	background-color: #CAF3F4;
+}
+.childDiv : hover {
+    box-shadow: 0 8px 16px 	lightyellow;
+}
+
+.container {
+    padding: 2px 6px;
+}
+
+@media screen and (min-width: 760px){
+  .mainDiv {
+        background-color: #EDF7D3;
+
+    }
+}
+@media screen and (max-width: 760px){
+	 .mainDiv{
+		 flex-wrap: wrap;
+
+	 }
+  .childDiv {
+        background-color: #EDF7D3;
+        margin-top: 20px;
+		display: flex;
+
+    }
+   }
+
+
+ .img img{
+  border-radius: 25px;
+  height: auto;
+  width: 100%;
+  }
+  div{
+    padding:5px;
+  }
+
+body{
+  background-color: #99C68E;
+}
+.button input{
+  border-radius: 100px;
+  float: right;
+
+}
+button{
+	background-color: #FFFFFF;
+	color: #000000;
+  font-weight: bold;
+	width:100%;
+	border-radius:10px;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}
