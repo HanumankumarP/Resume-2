@@ -33,8 +33,8 @@
 });
 
 
-var row = document.getElementById("row");
-row.classList.add("row");
+var main = document.getElementById("main");
+main.classList.add("main");
 var left = document.createElement("div");
 left.classList.add("left");
 var bio = document.createElement("div");
@@ -58,8 +58,8 @@ bio.appendChild(name1);
 left.appendChild(bio);
 
 
-row.appendChild(left);
-console.log(row);
+main.appendChild(left);
+console.log(main);
 
 var sidemenu=document.createElement("div");
 sidemenu.classList.add("sidemenu");
@@ -91,8 +91,8 @@ sidemenu.appendChild(obj);
 sidemenu.appendChild(myphone);
 sidemenu.appendChild(email);
 sidemenu.appendChild(lag);
-row.appendChild(left);
-console.log(row);
+main.appendChild(left);
+console.log(main);
 
 }
 
@@ -102,7 +102,7 @@ var right = document.createElement("div");
 
  function next(next){
 
- 
+
  var headers = document.createElement("div");
 headers.classList.add("headers");
  headers.textContent="BACKGROUND";
@@ -145,7 +145,7 @@ headers2.classList.add("headers");
    right.appendChild(document.createElement("HR"))
     right.appendChild(p1);
     right.appendChild(document.createElement("HR"))
-    row.appendChild(right);
+    main.appendChild(right);
 
 }
 
@@ -177,7 +177,7 @@ right.appendChild(skill);
 }
 skill.appendChild(document.createElement("HR"))
 skill.appendChild(document.createElement("BR"))
-row.appendChild(right);
+main.appendChild(right);
 
 }
 
@@ -282,7 +282,7 @@ intr.textContent="INTERESTS";
 right.appendChild(intr);
 
 right.appendChild(document.createElement("HR"))
- 
+
 var interest1 = document.createElement("div");
 interest1.classList.add("Interests");
 
@@ -305,7 +305,7 @@ right.appendChild(interest1);
 
 function declaration(declaration)
 {
-  
+
    var dec=document.createElement("div");
    dec.classList.add("headers");
    dec.textContent="DECLARATION";
@@ -322,12 +322,6 @@ function declaration(declaration)
 
 }
 
-row.appendChild(right);
+main.appendChild(right);
 }
 ());
-
-
-
-
-
-
